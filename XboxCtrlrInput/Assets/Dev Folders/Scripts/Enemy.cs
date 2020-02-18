@@ -8,7 +8,7 @@ public class Enemy : MonoBehaviour
     public AudioClip ouch;
 
     internal Mover mover;
-    internal AnimationController control;
+    //internal AnimationController control;
     internal Collider2D _collider;
     internal AudioSource _audio;
     SpriteRenderer spriteRenderer;
@@ -24,12 +24,12 @@ public class Enemy : MonoBehaviour
 
     void OnCollisionEnter2D(Collision2D collision)
     {
-        var player = collision.gameObject.GetComponent<PlayerController>();
+        var player = collision.gameObject.GetComponent<Player>();
         if (player != null)
         {
-            var ev = Schedule<PlayerEnemyCollision>();
-            ev.player = player;
-            ev.enemy = this;
+            //var ev = Schedule<PlayerEnemyCollision>();
+            //ev.player = player;
+            //ev.enemy = this;
         }
     }
 
@@ -37,8 +37,8 @@ public class Enemy : MonoBehaviour
     {
         if (path != null)
         {
-            if (mover == null) mover = path.CreateMover(control.maxSpeed * 0.5f);
-            control.move.x = Mathf.Clamp(mover.Position.x - transform.position.x, -1, 1);
+            //if (mover == null) mover = path.CreateMover(control.maxSpeed * 0.5f);
+            //control.move.x = Mathf.Clamp(mover.Position.x - transform.position.x, -1, 1);
         }
     }
 }
