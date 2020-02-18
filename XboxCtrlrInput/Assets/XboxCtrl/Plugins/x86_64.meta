@@ -1,15 +1,24 @@
 fileFormatVersion: 2
 <<<<<<< Updated upstream
+<<<<<<<< Updated upstream:XboxCtrlrInput/Assets/XboxCtrl/Plugins/x86_64.meta
+<<<<<<< Updated upstream
+========
+>>>>>>>> Stashed changes:XboxCtrlrInput/Assets/Plugins/x86_64.meta
 guid: b2359a1663bb16b46821eee765dc12a5
 folderAsset: yes
 timeCreated: 1431016080
 licenseType: Free
 DefaultImporter:
 =======
+=======
+>>>>>>> Stashed changes
 guid: 0a16deb44c35ff540b718e68cc9fd466
 folderAsset: yes
 DefaultImporter:
   externalObjects: {}
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   userData: 
   assetBundleName: 

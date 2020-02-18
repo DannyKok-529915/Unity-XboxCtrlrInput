@@ -1,5 +1,9 @@
 fileFormatVersion: 2
 <<<<<<< Updated upstream
+<<<<<<<< Updated upstream:XboxCtrlrInput/Assets/XboxCtrl/Plugins/x86_64/XInputInterface.dll.meta
+<<<<<<< Updated upstream
+========
+>>>>>>>> Stashed changes:XboxCtrlrInput/Assets/Plugins/x86_64/XInputInterface.dll.meta
 guid: ec4c2705c0befbd459db2f5372fb420a
 PluginImporter:
   serializedVersion: 1
@@ -92,6 +96,8 @@ PluginImporter:
         CompileFlags: 
         FrameworkDependencies: 
 =======
+=======
+>>>>>>> Stashed changes
 guid: ea895df4f09804d47ac0a43ce22418cb
 PluginImporter:
   externalObjects: {}
@@ -140,6 +146,9 @@ PluginImporter:
       enabled: 1
       settings:
         CPU: AnyCPU
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
   userData: 
   assetBundleName: 
