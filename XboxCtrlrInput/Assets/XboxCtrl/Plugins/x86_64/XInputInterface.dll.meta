@@ -2,6 +2,10 @@ fileFormatVersion: 2
 <<<<<<< Updated upstream
 <<<<<<<< Updated upstream:XboxCtrlrInput/Assets/XboxCtrl/Plugins/x86_64/XInputInterface.dll.meta
 <<<<<<< Updated upstream
+<<<<<<<< Updated upstream:XboxCtrlrInput/Assets/XboxCtrl/Plugins/x86_64/XInputInterface.dll.meta
+<<<<<<< Updated upstream
+========
+>>>>>>>> Stashed changes:XboxCtrlrInput/Assets/Plugins/x86_64/XInputInterface.dll.meta
 ========
 >>>>>>>> Stashed changes:XboxCtrlrInput/Assets/Plugins/x86_64/XInputInterface.dll.meta
 guid: ec4c2705c0befbd459db2f5372fb420a
@@ -98,6 +102,8 @@ PluginImporter:
 =======
 =======
 >>>>>>> Stashed changes
+=======
+>>>>>>> Stashed changes
 guid: ea895df4f09804d47ac0a43ce22418cb
 PluginImporter:
   externalObjects: {}
@@ -147,6 +153,9 @@ PluginImporter:
       settings:
         CPU: AnyCPU
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
