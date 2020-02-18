@@ -7,9 +7,6 @@ public class Player : MonoBehaviour
 {
 	public float speed;
 	public float jumpA;
-	public float jumpB;
-	public float jumpX;
-	public float jumpY;
 	public XboxController controller;
 	private bool canJump;
 	private Vector2 nextPos;
@@ -27,12 +24,6 @@ public class Player : MonoBehaviour
 		float axisX = XCI.GetAxis(XboxAxis.LeftStickX, controller);
 		nextPos = nextPos + new Vector2(axisX * speed * Time.deltaTime, 0);
 		transform.position = nextPos;
-
-
-		if (XCI.GetButton(XboxButton.Start, controller) && canJump)
-		{
-			speed = speed * 2;
-		}
 
 		if (XCI.GetButton(XboxButton.A, controller) && canJump)
 		{
