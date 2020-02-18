@@ -2,13 +2,29 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
+using UnityEngine.UI;
+using XboxCtrlrInput;
 
 public class ButtonManager : MonoBehaviour
 {
     public GameObject startScherm;
     public GameObject controlsScherm;
     public GameObject creditsScherm;
-    public GameObject goBackButtonScherm;
+
+    [SerializeField] private Button startButton;
+
+    private XboxController controller;
+
+    private void Update()
+    {
+        if (XCI.GetButtonDown(XboxButton.B, controller) && startScherm.activeSelf == false)
+        {
+            StartScherm();
+
+            startButton.Select();
+
+        }
+    }
 
     public void StartScherm()
     {
@@ -16,7 +32,6 @@ public class ButtonManager : MonoBehaviour
         controlsScherm.SetActive(false);
         creditsScherm.SetActive(false);
 
-        goBackButtonScherm.SetActive(false);
     }
 
     public void ControlsScherm()
@@ -25,7 +40,6 @@ public class ButtonManager : MonoBehaviour
         controlsScherm.SetActive(true);
         creditsScherm.SetActive(false);
 
-        goBackButtonScherm.SetActive(true);
     }
 
     public void CreditsScherm()
@@ -33,8 +47,6 @@ public class ButtonManager : MonoBehaviour
         startScherm.SetActive(false);
         controlsScherm.SetActive(false);
         creditsScherm.SetActive(true);
-
-        goBackButtonScherm.SetActive(true);
     }
 
 
